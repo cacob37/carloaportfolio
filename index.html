@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Carlo Acob — Portfolio</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-left">
+            <a href="/" class="nav-brand">Carlo Acob</a>
+        </div>
+        <div class="nav-center">
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-right">
+            <a href="https://www.linkedin.com/in/carloacob/" target="_blank" rel="noopener noreferrer" class="nav-icon-link">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="mailto:c.acob9@gmail.com" class="nav-icon-link nav-email-btn">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- SECTION 1: Hero -->
+        <section class="hero-section">
+            <div class="hero-text">
+                <p class="hero-eyebrow">Passionate Data Analyst · Aspiring Product Manager</p>
+                <h1 class="hero-headline">
+                    <span class="hero-static">Data analyst</span>
+                    <span class="hero-typed-line"><span class="typed-suffix" id="typed-text"></span><span class="cursor">|</span></span>
+                </h1>
+                <p class="hero-bio">Hi, I'm Carlo! I'm currently a data analyst at Vancouver Coastal Health with a passion for turning complex data into clear, actionable insights. I've led Agile ceremonies for teams of 15, built executive dashboards, and contributed to AI-powered products and now I'm channeling that experience towards new and exciting roles in product management or data.</p>
+
+                <a href="Resume/CarloAcob_Resume_Website.docx" download class="resume-btn">
+                    <i class="fa-solid fa-download"></i>
+                    Download Resume
+                </a>
+
+                <div class="hero-links">
+                    <a href="#skills"><i class="fa-solid fa-laptop-code"></i><span>Skills</span></a>
+                    <a href="#experience"><i class="fa-solid fa-briefcase"></i><span>Experience</span></a>
+                    <a href="#education"><i class="fa-solid fa-graduation-cap"></i><span>Education</span></a>
+                    <a href="#contact"><i class="fa-solid fa-envelope"></i><span>Contact</span></a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="images/Work Pic v3.png" alt="Carlo Acob headshot">
+            </div>
+        </section>
+
+        <!-- SECTION 2: Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <p class="section-subtitle">Tools and technologies I work with regularly.</p>
+            <div class="cells">
+                <div class="cell"><img src="images/sql.png" alt="SQL"><span>SQL</span></div>
+                <div class="cell"><img src="images/Python-logo-notext.svg.png" alt="Python"><span>Python</span></div>
+                <div class="cell"><img src="images/tableau.png" alt="Tableau"><span>Tableau</span></div>
+                <div class="cell"><img src="images/powerbi.png" alt="Power BI"><span>Power BI</span></div>
+                <div class="cell"><img src="images/Excel.png" alt="Excel"><span>Excel</span></div>
+                <div class="cell"><img src="images/jira logo.webp" alt="Jira"><span>Jira</span></div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: Work Experience -->
+        <section id="experience" class="experience-section">
+            <h2>Experience</h2>
+            <p class="section-subtitle">Where I've worked and what I've built.</p>
+
+            <div class="timeline">
+
+                <!-- VCH -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <div class="job-header-left">
+                                <img src="images/VCH Logo.webp" alt="VCH Logo" class="company-logo">
+                                <div>
+                                    <h3>Data Analyst &amp; Scrum Master</h3>
+                                    <a href="https://www.vch.ca/en" target="_blank" rel="noopener noreferrer" class="company-link">Vancouver Coastal Health</a>
+                                </div>
+                            </div>
+                            <span class="job-date">May 2024 — Present</span>
+                        </div>
+                        <p class="job-context">Analytics delivery for BC's largest healthcare authority, serving 1.25M people across the province.</p>
+                        <ul>
+                            <li><strong>Launched a government program's first production dashboard</strong> where I extracted and transformed 10+ years of raw SQL data to define key metrics. I worked closely with the program team over a set of months to really determine what they needed. We landed on a dashboard with multiple tabs that truly showcases the patient journey and allows them to investigate any part of the process. It now has over 5,000+ views total.</li>
+                            <li><strong>Shaped a $176M infrastructure project</strong> by forecasting population growth and presenting findings directly to regional management. I dug deep into historical regional program data and investigated preliminary findings to verify our findings. Eventually, I presented to senior leadership the findings and the case for expanding their presence in a region.</li>
+                            <li><strong>Modernized legacy Tableau dashboards</strong>, where the previous dashboards were legacy and losing multiple data sources. I took it upon myself to start learning our new DataBricks technology and was one of the first team members to utilize DataBricks to modernize an old SQL Server dashboard. I checked for ways to increase efficiency and reduce redundant tables to create a faster and more responsive dashboard.</li>
+                            <li><strong>Directs Agile ceremonies</strong> for 15 healthcare analysts, where I happily take lead as Scrum Master. I lead daily huddles, I follow up with tasks from our team retrospectives and take responsibility in planning our sprints and workload. I help coordinate over 8+ health authority subject areas and expert analysts day-to-day.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Slalom -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <div class="job-header-left">
+                                <img src="images/Slalom Logo.jpg" alt="Slalom Logo" class="company-logo">
+                                <div>
+                                    <h3>Data Analytics Consultant (Internship)</h3>
+                                    <a href="https://www.slalom.com/ca/en" target="_blank" rel="noopener noreferrer" class="company-link">Slalom</a>
+                                </div>
+                            </div>
+                            <span class="job-date">May 2023 — Oct 2023</span>
+                        </div>
+                        <p class="job-context">Embedded with client teams to translate business problems into data products and technology strategy.</p>
+                        <ul>
+                            <li><strong>Built C-suite Power BI dashboards</strong> that utilized DAX and calculated measures tracking a multitude of KPIs, with 3 at the core of business growth. Together with a senior data engineer, we determined what were the main factors of growth for a large client. After we delivered the dashboard, the stakeholders were so enthusiastic that they requested 6 additional dashboards covering their other sites.</li>
+                            <li><strong>Co-developed a generative AI compliance tool</strong> using Python, OpenAI and Azure. The compliance tool would help our HR client quickly generate accurate safety compliance documents that cut manual work down by 4 hours a day. Senior management was increidbly impressed and eventually retooled and reused this compliance tool for over ~7,000 clients in different industries.</li>
+                            <li><strong>Delivered a data engineering solution</strong> in Python, SQL, and Databricks enabling API-based analysis of insurance claims. I used an API to track various factors surrounding insurance claims for a client. The solution was able to embed itself into the client's other tools and helped reduce back-and-forth work and kept all their tools in their ecosystem.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Conversion -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <div class="job-header-left">
+                                <img src="images/Conversion.png" alt="Conversion Logo" class="company-logo">
+                                <div>
+                                    <h3>Digital Project Manager (Internship)</h3>
+                                    <a href="https://conversion.com/" target="_blank" rel="noopener noreferrer" class="company-link">Conversion</a>
+                                </div>
+                            </div>
+                            <span class="job-date">May 2022 — Sep 2022</span>
+                        </div>
+                        <p class="job-context">Project delivery at a specialized A/B testing agency serving Fortune 500 clients.</p>
+                        <ul>
+                            <li><strong>Appointed as project lead during internship</strong> on client accounts. I impressed our team so much with my fantastic multi-tasking and stakeholder management that I was their first ever intern to be appointed as a project lead. I proudly managed timelines, connected with clients and worked with cross-functional teams and delivered 20% more than my expected goal output.</li>
+                            <li><strong>Redesigned QA/QC workflows company-wide</strong>, saving approximately 2 hours per project. I wanted to give my time a farewell gift before the end of my internship and I compared different tools to help them reduce QA/QC time. I showcased some possible solutions and options and they landed on one of my suggestions which has helped reduce errors and increase daily efficiency.</li>
+                            <li><strong>Ran A/B Tests with 3 different collaborative teams from start-to-finish.</strong> I emphasized accuracy in our deliverables and would help ideation sessions to provide new tests for the clients. I contributed to over 20 different projects and would then be tasked with overseeing the project and stakeholder management.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 4: Education & Volunteering -->
+        <section id="education" class="education-section">
+            <h2>Education &amp; Volunteering</h2>
+            <p class="section-subtitle">Academic background and community involvement.</p>
+
+            <!-- SFU Card -->
+            <div class="sfu-card">
+                <div class="sfu-card-img">
+                    <img src="images/sfu logo.png" alt="Simon Fraser University">
+                    <div class="sfu-img-overlay">
+                        <span class="sfu-overlay-badge">BBA</span>
+                    </div>
+                </div>
+                <div class="sfu-card-right">
+                    <div class="sfu-card-top">
+                        <div>
+                            <h3>Simon Fraser University</h3>
+                            <p class="sfu-degree">Bachelor of Business Administration</p>
+                        </div>
+                        <span class="sfu-years-pill">Sept 2020 — Apr 2023</span>
+                    </div>
+                    <p class="sfu-meta">Concentrations in <strong>Operations Management</strong> &amp; <strong>Management Information Systems</strong></p>
+                    <a href="https://www.sfu.ca" target="_blank" rel="noopener noreferrer" class="sfu-link">
+                        Visit SFU &nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Certifications row -->
+            <div class="cert-row">
+                <div class="cert-card">
+                    <i class="fa-brands fa-microsoft cert-icon"></i>
+                    <div>
+                        <p class="cert-name">Azure Fundamentals</p>
+                        <p class="cert-issuer">Microsoft · AZ-900</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <i class="fa-brands fa-aws cert-icon"></i>
+                    <div>
+                        <p class="cert-name">Cloud Practitioner</p>
+                        <p class="cert-issuer">Amazon Web Services · CCP</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Volunteering -->
+            <h3 class="vol-heading">Volunteering &amp; Extracurriculars</h3>
+            <div class="vol-list">
+
+                <!-- Item 1: text left, image right -->
+                <div class="vol-item vol-item--left">
+                    <div class="vol-number">1</div>
+                    <div class="vol-body">
+                        <h4>Bright Ideas Mentor</h4>
+                        <p>Mentored 2 teams of high school students in the fundamentals of entrepreneurship, guiding them through venture development, proof-of-concept preparation, and final pitch presentations to a panel of judges.</p>
+                    </div>
+                    <div class="vol-img">
+                        <img src="images/brightideas.png" alt="Bright Ideas Mentor">
+                    </div>
+                </div>
+
+                <!-- Item 2: image left, text right (flipped) -->
+                <div class="vol-item vol-item--right">
+                    <div class="vol-img">
+                        <img src="images/photographyclub.png" alt="DSU Photo Club">
+                    </div>
+                    <div class="vol-body">
+                        <h4>DSU Photo Club President</h4>
+                        <p>Co-founded the photography club at Douglas College, growing it to 100+ active members. Oversaw curriculum planning, event coordination, and executive team development — fostering a creative community built on shared passion and lasting friendships.</p>
+                    </div>
+                    <div class="vol-number">2</div>
+                </div>
+
+                <!-- Item 3: text left, image right -->
+                <div class="vol-item vol-item--left">
+                    <div class="vol-number">3</div>
+                    <div class="vol-body">
+                        <h4>Enactus Project Manager</h4>
+                        <p>Led sustainable entrepreneurship workshops over an 8-month tenure as PM, managing student teams through ideation, iteration, and stakeholder presentations. I proudly led students in finding actionable, real-world business cases for various organizations.</p>
+                    </div>
+                    <div class="vol-img">
+                        <img src="images/enactus.png" alt="Enactus Project Manager">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 5: Testimony -->
+        <section id="testimony" class="testimony-section">
+            <h2>Testimonials</h2>
+            <p class="section-subtitle">Perspectives from some people I've had the pleasure of working with.</p>
+
+            <!-- Testimony 1: person left -->
+            <div class="testimony-card testimony-card--left">
+                <div class="person-details">
+                    <img src="images/VipinImage.jpg" alt="Testimonial photo">
+                    <p class="person-name">Vipin M</p>
+                    <p class="person-title">Principal, Slalom</p>
+                </div>
+                <div class="testimony-text">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nemo quasi fuga a illum autem natus, eos rem quia possimus impedit molestias consectetur fugiat dignissimos qui at aliquid hic. Libero quam esse hic delectus molestias quisquam qui, necessitatibus ipsa provident placeat praesentium ullam, eaque ducimus accusantium facere mollitia perferendis corrupti?"
+                </div>
+            </div>
+
+            <!-- Testimony 2: person right (flipped) -->
+            <div class="testimony-card testimony-card--right">
+                <div class="testimony-text">
+                    "Replace this with your second testimonial. A great recommendation from a colleague, manager, or collaborator speaks volumes — feel free to drop in whatever quote you receive here."
+                </div>
+                <div class="person-details">
+                    <img src="images/VipinImage.jpg" alt="Second testimonial photo">
+                    <p class="person-name">PLACEHOLDER</p>
+                    <p class="person-title">PLACEHOLDER, PALCEHOLDER </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SECTION 6: Let's Connect -->
+        <section id="contact" class="contact-section">
+            <div class="contact-inner">
+                <div class="contact-left">
+                    <h2>Let's Connect</h2>
+                    <p class="contact-lead">I'm actively looking for my next role and would love to chat. If what you're building sounds like a place where I'd thrive, I'd be happy to chat!</p>
+
+                    <div class="contact-col">
+                        <p class="contact-label">WHAT I'M LOOKING FOR</p>
+                        <ul class="contact-list">
+                            <li>Product Manager, Project Manager, Data Analyst, or Business Analyst roles in Vancouver, Toronto, or remote positions.</li>
+                            <li>Collaborative teams that champion data-informed decisions and genuine cross-functional partnership.</li>
+                            <li>Organizations that invest in their people, value teamwork, and treat employee growth with care.</li>
+                            <li>Companies driven by sustainability and are forward-looking, excited to build products and services that actually make a difference.</li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-col">
+                        <p class="contact-label">REACH OUT</p>
+                        <div class="reach-out-grid">
+                            <div class="reach-item">
+                                <span class="reach-title"><i class="fa-solid fa-envelope"></i> Email</span>
+                                <a href="mailto:c.acob9@gmail.com">c.acob9@gmail.com</a>
+                            </div>
+                            <div class="reach-item">
+                                <span class="reach-title"><i class="fa-brands fa-linkedin"></i> LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/carloacob/" target="_blank" rel="noopener noreferrer">linkedin.com/in/carloacob</a>
+                            </div>
+                            <div class="reach-item">
+                                <span class="reach-title"><i class="fa-solid fa-location-dot"></i> Location</span>
+                                <span>Based in Vancouver · Open to relocating to Toronto</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <div class="quick-overview">
+                        <p class="overview-title">Quick Overview</p>
+                        <div class="overview-row">
+                            <span class="overview-key">Experience</span>
+                            <span class="overview-val">3+ years across healthcare analytics, consulting &amp; product delivery</span>
+                        </div>
+                        <div class="overview-row">
+                            <span class="overview-key">Focus</span>
+                            <span class="overview-val">Data products, Agile leadership, stakeholder communication</span>
+                        </div>
+                        <div class="overview-row">
+                            <span class="overview-key">Stack</span>
+                            <span class="overview-val">SQL, Python, Tableau, Power BI, Azure, Databricks</span>
+                        </div>
+                        <div class="overview-row">
+                            <span class="overview-key">Approach</span>
+                            <span class="overview-val">Data-first thinking, cross-functional collaboration, bias toward action</span>
+                        </div>
+                        <div class="overview-actions">
+                            <a href="Resume/CarloAcob_Resume_Website.docx" download class="overview-btn overview-btn-gold">
+                                <i class="fa-solid fa-download"></i> Download Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Carlo Acob &nbsp;·&nbsp; Built in Vancouver, BC</p>
+    </footer>
+
+    <script>
+        const suffixes = [
+            "that asks the right questions.",
+            "that delivers great insights.",
+            "that proudly leads teams."
+        ];
+
+        const el = document.getElementById("typed-text");
+        let idx = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        const TYPING_SPEED   = 52;
+        const DELETING_SPEED = 26;
+        const PAUSE_TYPED    = 2400;
+        const PAUSE_DELETED  = 400;
+
+        function tick() {
+            const current = suffixes[idx];
+            if (!isDeleting) {
+                el.textContent = current.substring(0, charIndex + 1);
+                charIndex++;
+                if (charIndex === current.length) {
+                    isDeleting = true;
+                    setTimeout(tick, PAUSE_TYPED);
+                    return;
+                }
+            } else {
+                el.textContent = current.substring(0, charIndex - 1);
+                charIndex--;
+                if (charIndex === 0) {
+                    isDeleting = false;
+                    idx = (idx + 1) % suffixes.length;
+                    setTimeout(tick, PAUSE_DELETED);
+                    return;
+                }
+            }
+            setTimeout(tick, isDeleting ? DELETING_SPEED : TYPING_SPEED);
+        }
+
+        tick();
+    </script>
+
+</body>
+</html>
